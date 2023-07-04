@@ -11,38 +11,24 @@ public abstract class Reporting {
 	public static ExtentTest test;
 	
 	public String testCaseName, testCaseDescription;
-	public String author, category;
+	public String author, category;	
 	
-	
-	
-	public void startReport(){
-		
-		 report = new ExtentReports("./reports/Result2.html",false);  
-		
-		
-		
-	}
-	
-	public void startTest(String testName,String description) {
-		
+	public void startReport(){		
+		 report = new ExtentReports("./reports/Result2.html",false); 		
+	}	
+	public void startTest(String testName,String description) {		
 		test = report.startTest(testName, description);
 		test.assignAuthor(author);
-		test.assignCategory(category);
-		
+		test.assignCategory(category);		
 	}
-	
-	
 	/**
 	 * This method will take snapshot of the browser
 	 * @author Basha - LibertyTestingCenter
 	 * @throws  
 	 */
-	public abstract long takeSnap();
-	
-	public void reportStep(String details, String status) {
-		
-		long snapNumber = takeSnap();
-		
+	public abstract long takeSnap();	
+	public void reportStep(String details, String status) {		
+		long snapNumber = takeSnap();		
 		if(status.equalsIgnoreCase("pass")) {
 			test.log(LogStatus.PASS, details +test.addScreenCapture(".././reports/screenshots/"+snapNumber+".png"));
 		}else if(status.equalsIgnoreCase("fail")) {
@@ -51,14 +37,11 @@ public abstract class Reporting {
 			test.log(LogStatus.INFO, details  +test.addScreenCapture(".././reports/screenshots/"+snapNumber+".png"));
 		}else if(status.equalsIgnoreCase("warning")) {
 			test.log(LogStatus.WARNING, details  +test.addScreenCapture(".././reports/screenshots/"+snapNumber+".png"));
-		}
-			
+		}			
 	}
 	
-	public void reportStep(String details, String status, boolean snap) {
-		
-		if(!snap) {
-		
+	public void reportStep(String details, String status, boolean snap) {		
+		if(!snap) {		
 		if(status.equalsIgnoreCase("pass")) {
 			test.log(LogStatus.PASS, details);
 		}else if(status.equalsIgnoreCase("fail")) {
@@ -69,16 +52,11 @@ public abstract class Reporting {
 			test.log(LogStatus.WARNING, details);
 		}
 		}
-	}
-	
-	
+	}	
 	public void endTest() {
-		report.endTest(test);
-		
-	}
-	
+		report.endTest(test);		
+	}	
 	public void endReport() {
-		report.flush();
-		
+		report.flush();		
 	}
-}
+	}
