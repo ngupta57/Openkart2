@@ -24,9 +24,7 @@ public void setConditions() {
 	
 	
 @Test(dataProvider="fetchData")
-  public void openKart2LoginDDT(String email, String password,String DataValidity) {
-	  
-	  
+  public void openKart2LoginDDT(String email, String password,String DataValidity) {	  
 	  new HomePage() 
 	  .clickMyAccount()
 	  .clickLogin()
@@ -35,19 +33,7 @@ public void setConditions() {
 	  .clickLogin()
 	  .verifyMyAccountHeader("My Account", DataValidity)
 	  .clickLogout()
-	  .ConfirmLogoutMsg("You have been logged off your account. It is now safe to leave the computer.");
-	  
-	  
-	  
-		/*
-		 * if (DataValidity.equals("Valid")) { if (myaccount text displayed==true) {
-		 * Assert.assertTrue(true); .logout(); }else { Assert.assertTrue(false); } if
-		 * (DataValidity.equals("Invalid")) { if (MyAccount Dispalyed==true) {
-		 * Assert.assertTrue(false) }else {Assert.assertTrue(true); .logout();)
-		 * 
-		 * }
-		 * 
-		 * } }
-		 */
+	  .ConfirmLogoutMsg("You have been logged off your account. It is now safe to leave the computer."); 	  
+		
   }
 }

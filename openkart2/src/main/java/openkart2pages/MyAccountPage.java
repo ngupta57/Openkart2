@@ -35,6 +35,10 @@ public class MyAccountPage extends GenericWrappers {
 		clickByXpath(prop.getProperty("AccountLogoutPage.Lnk_LogOut.XPath"));		
 		return new AccountLogoutPage();
 	}
+	public AccountLogoutPage selectDrpdownLogout() {
+		clickByXpath(prop.getProperty("MyAccountPage.dropDownLogout.XPath"));		
+		return new AccountLogoutPage();
+	}
 	
 	
 }

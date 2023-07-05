@@ -12,10 +12,18 @@ public class LoginPage extends GenericWrappers {
 		enterById(prop.getProperty("LoginPage.Txt_Password.Id"),Data);		
 		return this;
 	}
+	public LoginPage VerifyResetMailSuccess(String Data) {
+		verifyTextByXpath(prop.getProperty("LoginPage.ResetEmailSuccessMsg.XPath"),Data);		
+		return this;
+	}
 	
 	public MyAccountPage clickLogin() {
 		clickByXpath(prop.getProperty("LoginPage.Bttn_Login.XPath"));		
 		return new MyAccountPage();
+	}
+	public ForgotPasswordPage clickForgotPasswordLnk() {
+		clickByXpath(prop.getProperty("LoginPage.lnkForgotPassword.XPath"));		
+		return new ForgotPasswordPage();
 	}
 	
 	

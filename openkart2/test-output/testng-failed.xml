@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="openkart2testcases.TC005_LoginDDT">
+      <class name="openkart2testcases.TC006_LogoutDropdwnMyAccount">
         <methods>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
@@ -11,11 +11,11 @@
           <include name="afterTest"/>
           <include name="beforeSuite"/>
           <include name="afterClass"/>
-          <include name="openKart2LoginDDT"/>
+          <include name="openKart2Logout"/>
           <include name="beforeMethod"/>
           <include name="setConditions"/>
         </methods>
-      </class> <!-- openkart2testcases.TC005_LoginDDT -->
+      </class> <!-- openkart2testcases.TC006_LogoutDropdwnMyAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
