@@ -22,15 +22,15 @@ public void setConditions() {
 	
 	
   @Test(dataProvider = "fetchData")
-  public void openKart2Registration(String firstName, String lastName,String eMail, String telePhone,String password, String confirmPassword,String message) {
-	  
+  public void openKart2Registration(String firstName, String lastName,String telePhone,String password, String confirmPassword,String message) {
+	  String Mail = randomAlphaNumeric();
 	  
 	  new HomePage() 
 	  .clickMyAccount()
 	  .clickRegister()
 	  .enterFirstName(firstName)
 	  .enterLastName(lastName)
-	  .enterEmail(eMail)
+	  .enterEmail(Mail)
 	  .enterTelPhone(telePhone)
 	  .enterPassword(password)
 	  .confirmPassword(confirmPassword)

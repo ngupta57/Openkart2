@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.ElementClickInterceptedException;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.ElementNotSelectableException;
@@ -1666,6 +1667,72 @@ public void clickByXpath(String xpathVal) {
 		return flag;
 	}
 
+	@Override
+	public boolean verifyIsElementDisplayedByXpath(String Xpath) {
+		// TODO Auto-generated method stub
+		boolean result=false;
+		try {
+			result=driver.findElementByXPath(Xpath).isDisplayed();
+			//System.out.println("The element with the xpath "+xpathValue+" is entered with data "+data);
+			//driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			reportStep("The element with the xpath "+Xpath+ " is displayed ","pass");
+			
+		} catch (NoSuchElementException e) {
+			// TODO Auto-generated catch block
+			//System.err.println("The element with the xpath "+xpathValue+" is not found in the DOM ");
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			reportStep("The element with the xpath "+Xpath+" is not found in the DOM ","fail");
+			
+		}catch (ElementNotVisibleException e) {
+			// TODO: handle exception
+			//System.err.println("The element with the xpath "+xpathValue+" is not visible in the application");
+			
+			reportStep("The element with the xpath "+Xpath+" is not visible in the application","fail");
+			
+		}catch (ElementNotInteractableException e) {
+			// TODO: handle exception
+			//System.err.println("The element with the xpath "+xpathValue+" is not interactable in the application");
+			
+			reportStep("The element with the xpath "+Xpath+" is not interactable in the application","fail");
+			
+			
+		}catch (StaleElementReferenceException e) {
+			// TODO: handle exception
+			//System.err.println("The element with the xpath "+xpathValue+" is not stable in the application");
+			reportStep("The element with the xpath "+Xpath+" is not stable in the application","fail");
+			
+		}catch (WebDriverException e) {
+			// TODO: handle exception
+		//	System.err.println("The element with the xpath "+xpathValue+" is not entered with data "+data+" due to unknown error");
+			
+			reportStep("The element with the xpath "+Xpath+ " is not displayed due to unknown error","fail");
+			
+		}
+		return result;
+	}
+
+	@Override
+	public String randomeString() {
+		String generatedString = RandomStringUtils.randomAlphabetic(5);
+			return (generatedString);
+		}
+		
+	
+
+	@Override
+	public String randomeNumber() {		
+			String generatedString2 = RandomStringUtils.randomNumeric(10);
+			return (generatedString2);		
+	}
+
+	@Override
+	public String randomAlphaNumeric() {
+		String st = RandomStringUtils.randomAlphabetic(4);
+		String num = RandomStringUtils.randomNumeric(3);		
+		return (st+"@"+num+".com");
+	}	
+	}
+
 	
 	
 	
@@ -1678,4 +1745,4 @@ public void clickByXpath(String xpathVal) {
 	
 	
 
-}
+

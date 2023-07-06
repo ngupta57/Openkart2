@@ -237,5 +237,10 @@ public interface Wrappers {
 	
 	public void mouseHoverByXpath(String data);
 	
+	public boolean verifyIsElementDisplayedByXpath(String Xpath);
+	public String randomeString();
+	public String randomeNumber();
+	public String randomAlphaNumeric();
+	
 }
 
