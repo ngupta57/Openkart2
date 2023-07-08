@@ -1,85 +1,479 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="24" total="38" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-06T18:33:46 EDT" name="Default suite" finished-at="2023-07-06T18:33:53 EDT" duration-ms="7307">
+  <suite started-at="2023-07-07T15:59:57 EDT" name="Suite" finished-at="2023-07-07T16:03:37 EDT" duration-ms="219270">
     <groups>
     </groups>
-    <test started-at="2023-07-06T18:33:46 EDT" name="Default test" finished-at="2023-07-06T18:33:53 EDT" duration-ms="7307">
-      <class name="openkart2testcases.TC007_CameraTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:46 EDT" name="beforeSuite" finished-at="2023-07-06T18:33:46 EDT" duration-ms="76" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:46 EDT" name="beforeTest" finished-at="2023-07-06T18:33:46 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:46 EDT" name="setConditions" finished-at="2023-07-06T18:33:46 EDT" duration-ms="0" status="PASS">
+    <test started-at="2023-07-07T15:59:57 EDT" name="Test" finished-at="2023-07-07T16:03:37 EDT" duration-ms="219270">
+      <class name="openkart2testcases.TC002_Registration_data">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:41 EDT" name="setConditions" finished-at="2023-07-07T16:02:41 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setConditions -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:46 EDT" name="beforeMethod" finished-at="2023-07-06T18:33:48 EDT" duration-ms="2369" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:42 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:43 EDT" duration-ms="1446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="openKart2Camera(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:48 EDT" name="openKart2Camera" data-provider="fetchData" finished-at="2023-07-06T18:33:50 EDT" duration-ms="1548" status="PASS">
+        <test-method signature="openKart2Registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:43 EDT" name="openKart2Registration" data-provider="fetchData" finished-at="2023-07-07T16:02:47 EDT" duration-ms="4220" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Price (Low > High)]]>
+                <![CDATA[Narinder]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[50]]>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8985998545]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Secret123$]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Secret123$]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your Account Has Been Created!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openKart2Camera -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:50 EDT" name="afterMethod" finished-at="2023-07-06T18:33:50 EDT" duration-ms="136" status="PASS">
+        </test-method> <!-- openKart2Registration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:47 EDT" name="afterMethod" finished-at="2023-07-07T16:02:47 EDT" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:50 EDT" name="beforeMethod" finished-at="2023-07-06T18:33:51 EDT" duration-ms="1375" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:47 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:49 EDT" duration-ms="1481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="openKart2Camera(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:51 EDT" name="openKart2Camera" data-provider="fetchData" finished-at="2023-07-06T18:33:53 EDT" duration-ms="1488" status="PASS">
+        <test-method signature="openKart2Registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:49 EDT" name="openKart2Registration" data-provider="fetchData" finished-at="2023-07-07T16:02:53 EDT" duration-ms="4037" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Rating (Highest)]]>
+                <![CDATA[Basha]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[100]]>
+                <![CDATA[Shaik]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6586753645]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India$4321]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India$4321]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your Account Has Been Created!]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openKart2Camera -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:53 EDT" name="afterMethod" finished-at="2023-07-06T18:33:53 EDT" duration-ms="105" status="PASS">
+        </test-method> <!-- openKart2Registration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:53 EDT" name="afterMethod" finished-at="2023-07-07T16:02:53 EDT" duration-ms="81" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:53 EDT" name="afterClass" finished-at="2023-07-06T18:33:53 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC002_Registration_data@2a7f1f10]" started-at="2023-07-07T16:02:53 EDT" name="afterClass" finished-at="2023-07-07T16:02:53 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:53 EDT" name="afterTest" finished-at="2023-07-06T18:33:53 EDT" duration-ms="1" status="PASS">
+      </class> <!-- openkart2testcases.TC002_Registration_data -->
+      <class name="openkart2testcases.TC001_Registration">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC001_Registration@2e385cce]" started-at="2023-07-07T16:00:02 EDT" name="setConditions" finished-at="2023-07-07T16:00:02 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC001_Registration@2e385cce]" started-at="2023-07-07T16:00:02 EDT" name="beforeMethod" finished-at="2023-07-07T16:00:03 EDT" duration-ms="1379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Registration()[pri:0, instance:openkart2testcases.TC001_Registration@2e385cce]" started-at="2023-07-07T16:00:03 EDT" name="openKart2Registration" finished-at="2023-07-07T16:00:15 EDT" duration-ms="12185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Registration -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC001_Registration@2e385cce]" started-at="2023-07-07T16:00:15 EDT" name="afterMethod" finished-at="2023-07-07T16:00:15 EDT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC001_Registration@2e385cce]" started-at="2023-07-07T16:00:15 EDT" name="afterClass" finished-at="2023-07-07T16:00:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- openkart2testcases.TC001_Registration -->
+      <class name="openkart2testcases.TC003_Login">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T15:59:57 EDT" name="beforeSuite" finished-at="2023-07-07T15:59:57 EDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T15:59:57 EDT" name="beforeTest" finished-at="2023-07-07T15:59:57 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T15:59:57 EDT" name="setConditions" finished-at="2023-07-07T15:59:57 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T15:59:57 EDT" name="beforeMethod" finished-at="2023-07-07T16:00:00 EDT" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Login()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T16:00:00 EDT" name="openKart2Login" finished-at="2023-07-07T16:00:01 EDT" duration-ms="1173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T16:00:01 EDT" name="afterMethod" finished-at="2023-07-07T16:00:02 EDT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T16:00:02 EDT" name="afterClass" finished-at="2023-07-07T16:00:02 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T16:03:37 EDT" name="afterTest" finished-at="2023-07-07T16:03:37 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:openkart2testcases.TC007_CameraTest@1c7696c6]" started-at="2023-07-06T18:33:53 EDT" name="afterSuite" finished-at="2023-07-06T18:33:53 EDT" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:openkart2testcases.TC003_Login@3c77d488]" started-at="2023-07-07T16:03:37 EDT" name="afterSuite" finished-at="2023-07-07T16:03:37 EDT" duration-ms="298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- openkart2testcases.TC007_CameraTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- openkart2testcases.TC003_Login -->
+      <class name="openkart2testcases.TC007_PasswordResetMail">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC007_PasswordResetMail@298a5e20]" started-at="2023-07-07T16:02:28 EDT" name="setConditions" finished-at="2023-07-07T16:02:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC007_PasswordResetMail@298a5e20]" started-at="2023-07-07T16:02:28 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:30 EDT" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2PasswordResetMail(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC007_PasswordResetMail@298a5e20]" started-at="2023-07-07T16:02:30 EDT" name="openKart2PasswordResetMail" data-provider="fetchData" finished-at="2023-07-07T16:02:41 EDT" duration-ms="11419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narinder.gupta@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Forgot Your Password?]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[An email with a confirmation link has been sent your email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2PasswordResetMail -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC007_PasswordResetMail@298a5e20]" started-at="2023-07-07T16:02:41 EDT" name="afterMethod" finished-at="2023-07-07T16:02:41 EDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC007_PasswordResetMail@298a5e20]" started-at="2023-07-07T16:02:41 EDT" name="afterClass" finished-at="2023-07-07T16:02:41 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- openkart2testcases.TC007_PasswordResetMail -->
+      <class name="openkart2testcases.TC005_LoginDDT">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:15 EDT" name="setConditions" finished-at="2023-07-07T16:00:15 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:16 EDT" name="beforeMethod" finished-at="2023-07-07T16:00:17 EDT" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:17 EDT" name="openKart2LoginDDT" data-provider="fetchData" finished-at="2023-07-07T16:00:49 EDT" duration-ms="31636" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narinder.gupta@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2LoginDDT -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:49 EDT" name="afterMethod" finished-at="2023-07-07T16:00:49 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:49 EDT" name="beforeMethod" finished-at="2023-07-07T16:00:50 EDT" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:00:50 EDT" name="openKart2LoginDDT" data-provider="fetchData" finished-at="2023-07-07T16:01:22 EDT" duration-ms="31718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ng@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2LoginDDT -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:22 EDT" name="afterMethod" finished-at="2023-07-07T16:01:22 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:22 EDT" name="beforeMethod" finished-at="2023-07-07T16:01:23 EDT" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:23 EDT" name="openKart2LoginDDT" data-provider="fetchData" finished-at="2023-07-07T16:01:55 EDT" duration-ms="31619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radha@krishna.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2LoginDDT -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:55 EDT" name="afterMethod" finished-at="2023-07-07T16:01:55 EDT" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:55 EDT" name="beforeMethod" finished-at="2023-07-07T16:01:57 EDT" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2LoginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:01:57 EDT" name="openKart2LoginDDT" data-provider="fetchData" finished-at="2023-07-07T16:02:28 EDT" duration-ms="31635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[narinder.gupta2020@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2LoginDDT -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:02:28 EDT" name="afterMethod" finished-at="2023-07-07T16:02:28 EDT" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC005_LoginDDT@2ddc9a9f]" started-at="2023-07-07T16:02:28 EDT" name="afterClass" finished-at="2023-07-07T16:02:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- openkart2testcases.TC005_LoginDDT -->
+      <class name="openkart2testcases.TC006_LogoutDropdwnMyAccount">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC006_LogoutDropdwnMyAccount@f0c8a99]" started-at="2023-07-07T16:03:03 EDT" name="setConditions" finished-at="2023-07-07T16:03:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC006_LogoutDropdwnMyAccount@f0c8a99]" started-at="2023-07-07T16:03:03 EDT" name="beforeMethod" finished-at="2023-07-07T16:03:05 EDT" duration-ms="1384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Logout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC006_LogoutDropdwnMyAccount@f0c8a99]" started-at="2023-07-07T16:03:05 EDT" name="openKart2Logout" data-provider="fetchData" finished-at="2023-07-07T16:03:36 EDT" duration-ms="31730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narinder.gupta@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[You have been logged off your account. It is now s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Logout -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC006_LogoutDropdwnMyAccount@f0c8a99]" started-at="2023-07-07T16:03:36 EDT" name="afterMethod" finished-at="2023-07-07T16:03:37 EDT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC006_LogoutDropdwnMyAccount@f0c8a99]" started-at="2023-07-07T16:03:37 EDT" name="afterClass" finished-at="2023-07-07T16:03:37 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- openkart2testcases.TC006_LogoutDropdwnMyAccount -->
+      <class name="openkart2testcases.TC004_Login2">
+        <test-method is-config="true" signature="setConditions()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:53 EDT" name="setConditions" finished-at="2023-07-07T16:02:53 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConditions -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:53 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:54 EDT" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Login(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:54 EDT" name="openKart2Login" data-provider="fetchData" finished-at="2023-07-07T16:02:55 EDT" duration-ms="1046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Narinder.gupta@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:55 EDT" name="afterMethod" finished-at="2023-07-07T16:02:56 EDT" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:56 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:57 EDT" duration-ms="1347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Login(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:57 EDT" name="openKart2Login" data-provider="fetchData" finished-at="2023-07-07T16:02:58 EDT" duration-ms="1017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ng@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:58 EDT" name="afterMethod" finished-at="2023-07-07T16:02:58 EDT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:58 EDT" name="beforeMethod" finished-at="2023-07-07T16:02:59 EDT" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Login(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:02:59 EDT" name="openKart2Login" data-provider="fetchData" finished-at="2023-07-07T16:03:01 EDT" duration-ms="1098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radha@krishna.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:03:01 EDT" name="afterMethod" finished-at="2023-07-07T16:03:01 EDT" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:03:01 EDT" name="beforeMethod" finished-at="2023-07-07T16:03:02 EDT" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="openKart2Login(java.lang.String,java.lang.String)[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:03:02 EDT" name="openKart2Login" data-provider="fetchData" finished-at="2023-07-07T16:03:03 EDT" duration-ms="1117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[narinder.gupta2020@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openKart2Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:03:03 EDT" name="afterMethod" finished-at="2023-07-07T16:03:03 EDT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:openkart2testcases.TC004_Login2@46cdf8bd]" started-at="2023-07-07T16:03:03 EDT" name="afterClass" finished-at="2023-07-07T16:03:03 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- openkart2testcases.TC004_Login2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
